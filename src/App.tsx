@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+createdAt, updatedAt,
+};
+});
 setQuotes((prev) => {
 const map = new Map<string, Quote>(prev.map((q) => [q.id, q]));
 for (const q of mapped) map.set(q.id, q);
